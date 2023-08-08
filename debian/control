@@ -1,0 +1,20 @@
+Source: adaptation-oneplus-billie
+Maintainer: Rúben Carneiro <rubencarneiro01@gmail.com>
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10),
+               debhelper-compat (= 13),
+Standards-Version: 4.5.0.3
+
+Package: adaptation-oneplus-billie
+Architecture: arm64
+Depends: ${misc:Depends},
+         adaptation-hybris-api29-phone,
+         linux-bootimage-oneplus-billie,
+         adaptation-oneplus-billie-configs,
+Description: Community adaptation for oneplus-billie - metapackage
+
+Package: adaptation-oneplus-billie-configs
+Architecture: arm64
+Depends: ${misc:Depends},
+Description: Community adaptation for oneplus-billie - adaptation configurations

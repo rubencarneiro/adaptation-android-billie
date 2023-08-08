@@ -1,0 +1,2 @@
+/usr/lib/adaptation-oneplus-billie/sources.list.d/community-oneplus-billie.list /etc/apt/sources.list.d/community-oneplus-billie.list
+/usr/lib/adaptation-oneplus-billie/trusted.gpg.d/community-oneplus-billie.gpg /etc/apt/trusted.gpg.d/community-oneplus-billie.gpg
